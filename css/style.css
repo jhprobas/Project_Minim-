@@ -1,0 +1,239 @@
+/*Common start*/
+
+    @font-face {
+        font-family:ubuntu-light;
+        src: url(../fonts/buntu/ubuntu-light.ttf);
+    }
+    @font-face {
+        font-family:playfair-display-regular;
+        src: url(../fonts/playfair_display/playfair-display-regular.ttf);
+    }
+
+    body{
+        margin: 0;
+        font-family:'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #626262;
+    }
+/*Common end*/
+
+/*Header start*/
+    header{
+        padding: 64px 0px;
+       
+        /* border: 1px solid red; */
+    }
+    .container{
+        margin: 0px auto;
+        width: 90%;
+        /* border: 1px solid red; */
+        overflow: hidden;
+        
+    }
+    .logo{
+        width: 11%;
+        /* border: 1px solid red; */
+        float: left;
+        margin-top: 4px;
+    }
+    .logo a{
+        display: block;
+       
+    }
+    .logo a img{
+        width: 100%;
+    }
+    .menu{
+        width: 60%;
+        /* border: 1px solid #00FF04; */
+        float: right;
+
+    }
+    .menu ul{
+        margin: 0;
+        float: right;
+      
+    }
+    .menu ul li{
+        list-style: none;
+        float: left;
+    }
+    .menu ul li a{
+        display: inline-block;
+        margin: 0px 50px;
+        padding: 5px 2px;
+        color: #626262;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: .33s;
+        border-bottom:transparent;     
+    }
+    .menu ul li:last-child a{
+        margin-right: 0px;
+    }
+    .menu ul li a:hover{
+        color: #626262;
+        border-bottom: 1px solid red;
+    }
+
+/*Header end*/
+
+/*Banner Start*/
+    .banner {
+        padding: 30px 0px; 
+    }
+    .background_img {
+
+    }
+    .background_img img {
+        width: 100%;
+    /* border: 1px solid red; */
+    }
+/*Banner End*/
+
+
+/*Message start*/
+    .message{
+        padding: 80px 0px;
+    }
+    .container_2{
+        margin: 0px auto;
+        width: 80%;
+        overflow: hidden;
+
+    }
+    .light{
+        margin: 0px;
+        font-family: 'ubounto', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color:#b4ad9e ;
+        text-transform: uppercase;
+    }
+    .head{
+        font-size: 30px;
+        font-weight: 400;
+        margin: 20px 0px 30px;
+    }
+    .text{
+        margin: 0px;
+        line-height: 24px;
+
+    }
+    .mt_40{
+        margin-top:40px;
+    }
+/*Message end*/
+
+/*About End*/
+    .about {
+        padding: 80px 0px;
+    }
+    .a_l {
+        width: 47%;
+        /* border: 1px solid red; */
+        float: left;
+    }
+    .a_l_img {
+
+    }
+    .a_l_img img {   
+        width: 100%;
+    }
+    .a_r {
+        width: 47%;
+        /* border: 1px solid red; */
+        float: right;
+    }
+    .a_r_img {}
+    .a_r_img img {
+        width: 100%;
+    }
+    .light_1 {
+        margin-top: 30px;
+    }
+/*About End*/
+
+/*-- Newsletter Start--*/
+.container-4{
+    width:100%;
+    background-color:#f0f0f0 ;
+    text-align: center;
+    padding: 70px 0px;
+
+}
+.s_h1{
+    padding-bottom: 80px;
+    
+
+}
+.s_p{
+    border-bottom: px solid #000000;
+    padding-bottom: 10px;
+    display: inline;
+
+}
+/*-- Newsletter End--*/
+
+/* Load More Button Start */
+.load{
+    margin: 100px 0px 200px;
+}
+.container_6{
+    margin: 0px auto;
+    width: 15%;
+    /* border: 1px solid red; */
+}
+.input{
+    margin: 0px;
+    padding: 24px;
+    font-size:32px;
+    border: 1px solid rgb(3, 4, 4);
+   text-align: center;
+}
+/* Load More Button End*/
+
+/* Footer Start */
+.footer{
+    background-color:#f0f0f0 ;
+}
+.container_7{
+    width: 80%;
+    padding:30px 0px 35px;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
+.p_l{
+    /* border: 1px solid rgb(0, 255, 119); */
+    width: 50%;
+    float: left;
+}
+.p_r{
+   /* border: 1px solid gainsboro; */
+   width: 40%; 
+   float: right;
+}
+.follow ul{
+    float: right;
+}
+.follow ul li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 40px;   
+}
+.follow ul li last-child a{
+    padding-right: 0px;
+}
+.p_p{
+    color: black;
+   
+}
+.p_p span {
+    padding-left: 20px;
+    color: #000000;
+}
+/* Footer End */
+
